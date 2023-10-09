@@ -6,7 +6,7 @@
 //   By: rabril-h <rabril-h@student.42barc...>      +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
 //   Created: 2023/10/09 20:48:28 by rabril-h          #+#    #+#             //
-//   Updated: 2023/10/09 22:22:48 by rabril-h         ###   ########.fr       //
+//   Updated: 2023/10/09 22:31:13 by rabril-h         ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
@@ -14,26 +14,46 @@
 
 int main(void)
 {
-	ClapTrap test1;
-	ClapTrap test2("Perico de los palotes va palote");
+	ClapTrap ct1;
+	ClapTrap ct2("Jack");
 
-	test1.attack("void");
-	test1.takeDamage(10);
-	test1.setAttack(5);
-	test2.setAttack(5);
-	test1.beRepaired(40);
-	test2.attack("void");
-	test2.attack("void");
-	test2.attack("mierder");
-	test2.attack("mierder");
-	test2.attack("void");
-	test2.attack("void");
-	test2.attack("mierder");
-	test2.attack("mierder");
-	test2.attack("void");
-	test2.attack("void");
-	test2.attack("mierder");
-	test2.attack("mierder");
+	ct1.attack("void");
+	ct1.takeDamage(10);
+	ct1.setAttack(5);
+	ct2.setAttack(5);
+	ct1.beRepaired(40);
+	ct2.attack("void");
+	ct2.attack("void");
+	ct2.attack("mierder");
+	ct2.attack("mierder");
+	ct2.attack("void");
+
+	ct2.attack("void");
+	ct2.attack("void");
+	ct2.attack("mierder");
+	ct2.attack("mierder");
+	ct2.attack("void");
+
+	ct1.attack("void");
+	ct1.attack("void");
+	ct1.attack("mierder");
+	ct2.attack("mierder");
+	ct1.attack("void");
+	ct1.attack("void");
+	ct2.attack("void");
+	ct1.attack("mierder");
+	ct1.attack("void");
+	ct1.attack("void");
+	ct1.attack("mierder");
+
+	ct1.beRepaired(40);
+
+	ct1.attack("mierder");
+	ct1.attack("void");
+	ct1.attack("void");
+
+	ct1.beRepaired(40);
+	ct1.takeDamage(30);
 	
 
 	return (0);
