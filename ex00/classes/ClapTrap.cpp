@@ -6,7 +6,7 @@
 //   By: rabril-h <rabril-h@student.42barc...>      +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
 //   Created: 2023/10/09 21:56:17 by rabril-h          #+#    #+#             //
-//   Updated: 2023/10/09 22:06:58 by rabril-h         ###   ########.fr       //
+//   Updated: 2023/10/09 22:18:11 by rabril-h         ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
@@ -22,11 +22,11 @@ ClapTrap::ClapTrap()
 	return;
 }
 
-ClapTrap::ClapTrap(std::string name)
+ClapTrap::ClapTrap(std::string name) : _name(name)
 {
 	std::cout << "ClapTrap constructor called for ";
 	std::cout << name << std::endl;
-	_name = name;
+	//_name = name;
 	_hitPoints = 10;
 	_energyPoints = 10;
 	_attackDamage = 0;
