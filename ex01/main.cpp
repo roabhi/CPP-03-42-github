@@ -6,7 +6,7 @@
 //   By: rabril-h <rabril-h@student.42barc...>      +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
 //   Created: 2023/10/10 19:09:30 by rabril-h          #+#    #+#             //
-//   Updated: 2023/10/10 20:15:33 by rabril-h         ###   ########.fr       //
+//   Updated: 2023/10/10 20:20:20 by rabril-h         ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
@@ -27,6 +27,8 @@ int main(void)
 	scr1.setAttack(100);
 	scr1.attack("fulanito");
 	scr1.takeDamage(10);
+	scr1.attack("faemino");
+	scr2.attack("cansado");
 	
 	return (0);
 }
