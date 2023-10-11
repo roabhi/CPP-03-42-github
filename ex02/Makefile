@@ -20,7 +20,7 @@ SRCS = main.cpp \
 
 HEADERS = ./classes/ClapTrap.hpp \
 				./classes/ScavTrap.hpp \
-				./classes/FragTrap.cpp \
+				./classes/FragTrap.hpp \
 
 CC = c++
 RM = rm -f
