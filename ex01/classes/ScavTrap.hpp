@@ -6,25 +6,25 @@
 //   By: rabril-h <rabril-h@student.42barc...>      +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
 //   Created: 2023/10/10 19:14:33 by rabril-h          #+#    #+#             //
-//   Updated: 2023/10/10 19:52:55 by rabril-h         ###   ########.fr       //
+//   Updated: 2023/10/11 15:40:12 by rabril-h         ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
-#ifndef SCRAVTRAP_HPP
-# define SCRAVTRAP_HPP
+#ifndef SCAVTRAP_HPP
+# define SCAVTRAP_HPP
 
 #include "ClapTrap.hpp"
 
-class ScravTrap : public ClapTrap{
+class ScavTrap : public ClapTrap{
 
 public:
 
-	ScravTrap(void);
-	ScravTrap(std::string name);
-	ScravTrap(const ScravTrap &inst);
-	~ScravTrap(void);
+	ScavTrap(void);
+	ScavTrap(std::string name);
+	ScavTrap(const ScavTrap &inst);
+	~ScavTrap(void);
 
-	ScravTrap& operator=(const ScravTrap &inst);
+	ScavTrap& operator=(const ScavTrap &inst);
 
 	void	attack(const std::string& target);
 	void    guardGate();

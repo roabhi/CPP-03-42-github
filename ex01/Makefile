@@ -6,7 +6,7 @@
 #    By: rabril-h <rabril-h@student.42barc...>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/10 19:05:08 by rabril-h          #+#    #+#              #
-#    Updated: 2023/10/10 20:00:09 by rabril-h         ###   ########.fr        #
+#    Updated: 2023/10/11 15:35:23 by rabril-h         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -14,11 +14,11 @@ NAME = Serena
 
 SRCS = main.cpp \
 				./classes/ClapTrap.cpp \
-				./classes/ScravTrap.cpp \
+				./classes/ScavTrap.cpp \
 
 
 HEADERS = ./classes/ClapTrap.hpp \
-				./classes/ScravTrap.hpp \
+				./classes/ScavTrap.hpp \
 
 CC = c++
 RM = rm -f
