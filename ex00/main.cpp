@@ -53,7 +53,7 @@ int main(void)
 	ct1.attack("void");
 
 	ct1.beRepaired(40);
-	ct1.takeDamage(30);
+	ct1.takeDamage(10);
 	
 
 	return (0);

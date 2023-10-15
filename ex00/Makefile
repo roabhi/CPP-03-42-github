@@ -26,7 +26,6 @@ CFLAGS = -Wall -Wextra -Werror -std=c++98 -g -fsanitize=address
 		@${CC} ${CFLAGS} -c $< -o $@
 
 OBJS = ${SRCS:.cpp=.o}
-DEPS = ${SRCS:.cpp=.d}
 
 ${NAME}:: ${OBJS}
 	${CC} $(CFLAGS) $(OBJS) -o ${NAME}
@@ -35,7 +34,6 @@ ${NAME}:: ${OBJS}
 all:
 		@$(MAKE) ${NAME} 
 
--include ${DEPS}
 
 clean:
 			@${RM} ${OBJS} ${DEPS}
